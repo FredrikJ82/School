@@ -1,0 +1,10 @@
+Programmets uppgift var att skapa ett program som frågar en användare om ett lösenord.
+
+Programmet har två delar, första delen räknar antalet inloggningar via ett while command.
+Den kollar antalet inloggningsförsök och när 3 har misslyckats så promptar den "för många inloggningsförsök" och stänger ner.
+
+Andra delen är en string som jämnför inputen med det satta lösenordet som är Fredrik.
+Vid rätt input så skriver den Välkommen Fredrik, vid fel så skriver den Fel lösenord, försök igen.
+Den tar även och ökar antalet inloggningsförsök med 1 och skickar tillbaka dig till inputen.
+
+Fredrik Johansson 820222-0631
