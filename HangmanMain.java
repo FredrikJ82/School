@@ -19,7 +19,7 @@ public class HangmanMain {
         String wordToGuess = input.nextLine().toUpperCase();
         int length = wordToGuess.length();
 
-        char[] wordToGuessChars = wordToGuess.toCharArray(); //creates char array of string
+        char[] wordToGuessChars = wordToGuess.toCharArray(); //Converts the input string to a charArray
 
         //creates and prints an array of chars with the same length as string
         char[] censor = wordToGuess.toCharArray();
@@ -47,7 +47,7 @@ public class HangmanMain {
             String currentGuess = input.next().toUpperCase().substring(0, 1);
             char currentGuessChar = currentGuess.charAt(0); //gets char data from scanner
 
-            //Checks if user already guessed the letter previously
+            //Checks for previously guessed letter(s)
             if (previousGuesses.contains(currentGuess)) {
                 System.out.println("You already guessed this letter! Guess again. Your previous guesses were: ");
                 System.out.println(previousGuesses.stream().reduce("", String::concat));
