@@ -247,9 +247,9 @@ public class Midiplayer extends javax.swing.JFrame {
 
         jLabel10.setText("0");
 
-        jLabel11.setText("-");
+        jLabel11.setText("+");
 
-        jLabel12.setText("=");
+        jLabel12.setText("´");
 
         btn_previousInstrument.setText("Previous instrument (I)");
         btn_previousInstrument.addActionListener(new java.awt.event.ActionListener() {
